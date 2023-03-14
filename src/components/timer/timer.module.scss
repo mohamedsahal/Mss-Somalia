@@ -1,0 +1,39 @@
+@use "../../variables" as mixin;
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: mixin.$spaceY;
+    font-weight: 700;
+
+    h1{
+        font-size: mixin.$headingFontSize;
+    }
+    .times{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .digit_text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        .digit{
+                font-size: 10rem;
+         }
+         .text{
+            font-size: 2rem;
+            transform: uppercase;
+         }
+    }
+
+   
+}
+    
+
