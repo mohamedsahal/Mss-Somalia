@@ -1,3 +1,4 @@
+import Competitors from "./components/competitors/Competitors"
 import Header from "./components/header/Header"
 import Timer from "./components/timer/Timer"
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div >
       <Header/>
       <Timer/>
+      <Competitors/>
     </div>
   )
 }
