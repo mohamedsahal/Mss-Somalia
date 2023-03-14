@@ -1,12 +1,14 @@
 import styles from "./header.module.scss"
-
 const Header = () => {
   return (
     <div >
         <header className={styles.header}>
             <ul>
-                <li>
-                    <a href="#" className={styles.logo}>Mss-Somalia</a>
+                <li >
+                    <div className={styles.logo}>
+                    <img src="../../miss.png"/>
+                    <a href="#" className={styles.logo_text}>Mss<br></br>Somalia</a>
+                    </div>
                 </li>
 
                 <li>

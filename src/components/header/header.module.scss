@@ -10,16 +10,25 @@
 
         li{
             list-style: none;
+            img{
+                width: 70px;
+                align-items: center;
+            }
+        }
         }
 
         a{
             text-decoration: none;
-        }
-        .logo{
             color: mixin.$secondaryColor;
+        }
+
+        .logo{
+            display: flex;
+        }
+        .logo_text{
             font-size: 1.5rem;
             font-weight: 600;
-        }
+            line-height: 30px;          
         .all{
             color: mixin.$primaryTextColor;
         }
