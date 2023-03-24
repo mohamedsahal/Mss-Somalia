@@ -1,4 +1,3 @@
-
 import competitors from '../../assets/competitors.json'
 import Competitor from '../competitor/Competitor'
 import styles from './competitors.module.scss'
